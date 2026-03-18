@@ -50,7 +50,7 @@ Once you have modified the locked keys, you are done. Restart your computer norm
 ### Step 6: Verify Optimization
 Open Task Manager. Search for the service you just killed (e.g., "defend"). If you disabled `WinDefend` correctly, the main service will be dead.
 
-**Taking it further:** If you see leftover bloatware services still running in Task Manager—like **Antimalware Core Service (`MDCoreSvc`)** or **AMD Crash Defender Service**—you can kill them too. Just find their specific folders in the registry using the exact same TrustedInstaller method and change their `Start` values to `4`.
+**Taking it further:** If you see leftover bloatware services still running in Task Manager—like **Antimalware Core Service (`MDCoreSvc`)**, you can kill them too. Just find their specific folders in the registry using the exact same TrustedInstaller method and change their `Start` values to `4`.
 
 ![Task Manager Verification](/doc/10.png)
 
